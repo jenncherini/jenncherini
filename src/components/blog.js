@@ -4,7 +4,7 @@ import Image from "next/image";
 const Blog = () => {
   return (
     <div className={styles.blog}>
-      <h1 data-aos="fade-up">Blog</h1>
+      <h1 data-aos="fade-up">Research & Testing</h1>
       <div className={styles.blogGrid}>
         {BlogData.map((blog) => {
           return (
@@ -28,7 +28,7 @@ const Blog = () => {
               </div>
               <div className={styles.blogButton}>
                 <a href={blog.link} target="_blank" rel="noreferrer">
-                  Read More
+                  Check out !
                 </a>
               </div>
             </div>

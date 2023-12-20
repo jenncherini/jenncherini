@@ -2,8 +2,8 @@ import React from "react";
 import styles from "@/styles/Navbar.module.scss";
 import Link from "next/link";
 import { Link as LinkS } from "react-scroll";
-import TDLogo from "../../public/images/Logo.png";
-import TDMobile from "../../public/images/MobileLogo.png";
+import TDLogo from "../../public/images/logo.svg";
+import TDMobile from "../../public/images/logo.svg";
 import Image from "next/image";
 import { Router, useRouter } from "next/router";
 
@@ -39,7 +39,7 @@ const Navbar = () => {
             </Link>
           )}
           <a
-            href="https://smallify.vercel.app/resume"
+            href="https://drive.google.com/file/d/13PplUNt0WIKY1I5v8-q48ks3xfSjalxc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resume}

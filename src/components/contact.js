@@ -37,37 +37,31 @@ const ContactSection = () => {
     <Element name="contact">
       <div className={styles.contactContainer}>
         <div className={styles.contactIntro}>
-          <h1 data-aos="fade-up">sold yet?</h1>
+          <h1 data-aos="fade-up">Keep in touch</h1>
           <p data-aos="fade-up" data-aos-delay="200">
-            Thanks for stopping by, I’m currently looking to join a new team of
-            creative designers and developers. If you think we might be a good
-            fit for one another, please do connect with me online
+            Thanks for stopping by, I’m currently looking to join a new team. If you think we might be a good
+            fit for one another, feel free to contact me
           </p>
         </div>
         <div className={styles.contactLinks} id="contact">
           <ContactLink
             Icon={FaLinkedinIn}
-            link="https://www.linkedin.com/in/tomcyt/"
+            link="https://www.linkedin.com/in/jennifercherini/"
             delay="400"
           />
           <ContactLink
             Icon={FaBehance}
-            link="https://www.behance.net/tomcythomas"
+            link="https://www.behance.net/jennifercherini"
             delay="600"
           />
           <ContactLink
-            Icon={FaDribbble}
-            link="https://dribbble.com/Tomcy48"
-            delay="800"
-          />
-          <ContactLink
             Icon={FaGithub}
-            link="https://github.com/TomcyT"
+            link="https://github.com/jenncherini"
             delay="1000"
           />
           <ContactLink
             Icon={FaTwitter}
-            link="https://twitter.com/Tomcy48"
+            link=""
             delay="1200"
           />
         </div>

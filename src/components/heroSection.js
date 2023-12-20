@@ -8,9 +8,9 @@ const HeroSection = () => {
     <div className={styles.heroSection} id="hero-section">
       <div className={styles.heroContainer}>
         <div className={styles.heroIntro}>
-          <p data-aos="fade-down">Hi! my name is Tomcy, I love</p>
+          <p data-aos="fade-down">Hi! my name is Jennifer, I love</p>
           <h1 data-aos="fade-down" data-aos-delay="200">
-            building <span className={styles.heroColor}>products</span> and{" "}
+            designing <span className={styles.heroColor}>products</span> and{" "}
             <span className={styles.heroColor2}>experiences</span>.
           </h1>
           <div className={styles.heroShortIntro}>
@@ -19,9 +19,14 @@ const HeroSection = () => {
               data-aos-delay="400"
               data-aos-anchor=".heroIntro"
             >
-              Final Year Computer Engineering student from Mumbai, working as a
-              freelance User Experience Designer since a year and currently
-              building cool stuff with ReactJS and React Native
+              Media & entertainment manager and UX designer
+            </p>
+            <p
+              data-aos="fade-down"
+              data-aos-delay="400"
+              data-aos-anchor=".heroIntro"
+            >
+              I seek to deliver tailored experiences through emotional design
             </p>
           </div>
         </div>
@@ -32,7 +37,7 @@ const HeroSection = () => {
           data-aos-anchor=".heroShortIntro"
         >
           <Link to="uiux" smooth={true} className={styles.heroCtaButtonLink}>
-            <button>Check out my works!</button>
+            <button>Check out my works</button>
           </Link>
           <a
             href="https://smallify.vercel.app/resume"
