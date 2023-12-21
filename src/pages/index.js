@@ -9,7 +9,6 @@ import { scroller } from "react-scroll";
 
 import DevProjects from "@/components/dev";
 import Blog from "@/components/blog";
-import Gfx from "@/components/gfx";
 
 export default function Home() {
   const { asPath } = useRouter();
@@ -28,7 +27,6 @@ export default function Home() {
         <HeroSection />
         <UIUXSection />
         <DevProjects />
-        <Gfx />
 
         <Blog />
         <ContactSection />
