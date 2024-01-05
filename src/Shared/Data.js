@@ -44,6 +44,15 @@ export const DevelopmentProjects = [
     image: require("../../public/images/developmentProjects/ppn.png"),
     color: "#FAF4B7",
   },
+  {
+    id: 3,
+    title: "Organización Mónaco",
+    desc: "Institutional website for an insurance producers and advisors company",
+    stack: "HTML5, CSS3, jQuery, JavaScript",
+    link: "https://organizacionmonaco.com.ar",
+    image: require("../../public/images/developmentProjects/org-monaco1.png"),
+    color: "#FAF4B7",
+  },
 ];
 
 export const GfxDesigns = [
