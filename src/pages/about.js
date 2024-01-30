@@ -14,23 +14,28 @@ export default function About() {
               <div className={styles.aboutInfo}>
                 <p data-aos="fade-up" data-aos-delay="200">
                   I&#39;m a UI/UX and Media Manager who is now
-                  learning React JS. I started participating in the 
-                  creation of user experiences, long before UX design, 
-                  in film and music festivals. Managing interactions
-                  around people and their needs has always been the 
-                  premise, something that I continue to apply in the 
-                  digital products I currently work for.
+                  learning React JS. 
                 </p>
                 <p data-aos="fade-up" data-aos-delay="300">
-                I have been working as a UX designer for three years, 
-                carrying out thorough research, designing solutions 
-                throughout every instance of digital product creation 
-                and collecting feedback in every project I participated in.
+                  Diving into the world of crafting user 
+                  experiences in film and music festivals, 
+                  long before UX design became a thing, 
+                  I honed my ability to collect insightful 
+                  information by observing the gap between 
+                  what people say and what they do.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="300">
+                Gliding through life like on my roller quads: 
+                pulling off tricks and taking unexpected trips, 
+                but hey, always rolling with it!
                 </p>
                 <p data-aos="fade-up" data-aos-delay="400">
-                I&#39;m an enthusiast driven by curiosity. It is my goal to 
-                optimize work processes to enhance the user experience 
-                through emotional design.
+                Setting goals is my jam, especially when it 
+                comes to reading X number of books each year—
+                I set them, crush them, and repeat.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="400">
+                And yes, asking why is a design skill too.
                 </p>
               </div>
 
