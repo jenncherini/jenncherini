@@ -2,6 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import styles from "@/styles/About.module.scss";
 import Me from "../../public/images/jenny.png";
+import Books from "../../public/images/stack-of-books1.png"
 
 export default function About() {
   return (
@@ -94,6 +95,31 @@ export default function About() {
               </div>
             </div>
           </div>
+          <div className={styles.aboutInspo}> 
+          <h1 data-aos="fade-up">Inspo</h1>
+          <div className={styles.aboutInspoContainer}>
+          <div className={styles.aboutInspoImage}>
+                <Image
+                  src={Books}
+                  alt="Picture of a stack of books I recently read"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                />
+          </div>
+              <div className={styles.aboutInspoInfo}>
+                <p data-aos="fade-up" data-aos-delay="200">
+                These are some of my recent reads that captured 
+                my attention and ignited my imagination. 
+                <br />
+                <br />
+                Whether they uncovered new concepts or offered 
+                thought-provoking insights, these books have 
+                something extraordinary to offer.
+                </p>
+              </div>
+          
+          </div>
+        </div>
         </div>
       </main>
     </>
